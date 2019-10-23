@@ -11,7 +11,6 @@ end
 
 def find_maximum_value(array)
     maximum = array[0]  #Assume first element is maximum
-   
     array.length.times { |index|
       if array[index] > maximum
           maximum = array[index]  #new maximum
