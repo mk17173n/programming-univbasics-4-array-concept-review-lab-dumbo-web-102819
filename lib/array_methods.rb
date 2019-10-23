@@ -8,13 +8,16 @@ def find_element_index(array, value_to_find)
   return nil
 end
 
+
 def find_maximum_value(array)
-    maximum = array[0]
+    maximum = array[0]  #Assume first element is maximum
+   
     array.length.times { |index|
       if array[index] > maximum
-          maximum = array[index]
+          maximum = array[index]  #new maximum
       end
     }
+   
     return maximum
 end
 
