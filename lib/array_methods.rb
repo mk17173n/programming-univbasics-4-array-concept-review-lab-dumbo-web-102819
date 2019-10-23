@@ -9,7 +9,7 @@ def find_element_index(array, value_to_find)
 end
 
 
-def find_maximum_value(array)
+def find_max_value(array)
     maximum = array[0]  #Assume first element is maximum
     array.length.times { |index|
       if array[index] > maximum
