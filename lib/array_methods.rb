@@ -15,7 +15,6 @@ def find_maximum_value(array)
           maximum = array[index]
       end
     }
-   
     return maximum
 end
 
