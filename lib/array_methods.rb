@@ -12,6 +12,17 @@ end
 
 def find_max_value(array)
 
+def find_maximum_value(array)
+    maximum = array[0]  #Assume first element is maximum
+   
+    array.length.times { |index|
+      if array[index] > maximum
+          maximum = array[index]  #new maximum
+      end
+    }
+   
+    return maximum
+end
 end
 
 def find_min_value(array)
